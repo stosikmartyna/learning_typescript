@@ -1,4 +1,10 @@
 html, body {
+  font-family: "Poppins";
     margin: 0;
     padding: 0;
+  }
+
+  @font-face {
+    font-family: "Poppins";
+    src: local("Poppins"), url("./fonts/Poppins.ttf");
   }
