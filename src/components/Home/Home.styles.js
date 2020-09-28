@@ -1,9 +1,8 @@
 import { css } from 'emotion';
 
 export const homeContainer = css({
-    alignItems: 'center',
     backgroundAttachment: 'fixed', 
-    backgroundImage: "url('/home_background.jpg')",
+    backgroundImage: "url('img/home_background_1.jpg')",
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
@@ -14,16 +13,22 @@ export const homeContainer = css({
 })
 
 export const text = css({
-    width: '50vw',
-
+    backgroundColor: '#262626',
+    display: 'flex',
+    flexDirection: 'column',
+    height: '100vh',
+    justifyContent: 'center',
+    padding: '0 2rem',
+    maxWidth: '30vw',
+    
     '& h1': {
         color: 'white',
         fontSize: '3.5rem',
-        letterSpacing: '.3rem',
+        letterSpacing: '.5rem',
     },
 
     '& span': {
         color: 'white',
-        textAlign: 'center'
+        fontSize: '.8rem'
     }
 })
